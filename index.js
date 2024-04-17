@@ -1,5 +1,6 @@
 #! /usr/bin/env node
 import inquirer from "inquirer";
+console.log("Welcome to number guessing game");
 const answer = await inquirer.prompt([{
         name: "userGuessedNumber",
         type: "number",
